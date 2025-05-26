@@ -67,7 +67,7 @@ Used to accept (or deny) the use of the private key(s) added to the SSH authenti
    ```sh
    sudo port install ssh-askpass
    sudo mkdir -p /private/var/select/X11/bin
-   sudo ln -s /usr/local/bin/ssh-askpass /private/var/select/X11/bin/
+   sudo ln -s /opt/local/bin/ssh-askpass /private/var/select/X11/bin/
    ```
 
 ### Without Homebrew/MacPorts
